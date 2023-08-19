@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section: Nav */
+.container {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), #b0c1d1),url("img/herrr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+/* Section: Header */
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    width: 140px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+    color: #faeaeb;
+    cursor: pointer;
+}
+
+a > span {
+    color: rgba(109, 177, 102, 0.872);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+}
+
+nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #b0c1d1;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color .5s, border-bottom .5s;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    /* color: #98bc62; */
+    border-bottom: 2px solid #98bc62;
+}
+
+.hero {
+    margin-top:10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero h1 {
+    font-size: 40px;
+    align-items: center;
+    margin-left: 20%;
+    color: #faeaeb;
+    font-weight: 500;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 20%;
+    color: #2e2f2cb7;
+}
